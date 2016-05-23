@@ -1,0 +1,37 @@
+#Wrapper {
+	background-image: url("/home/lorenzo/Scrivania/ProgettoTim/ImmaginiHTML/tecnologia_header.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	z-index: -1;
+}
+
+#promotion {
+	margin : 0px;
+	color:blue;
+	font-family:tahoma;
+	font-size:0.5vm;
+	text-align:center;
+	height:100px;
+	position:absolute;
+	top: 300px;
+	left: 45%;
+	
+}
+
+#assistance {
+	margin : 0px;
+	color:blue;
+	font-family:tahoma;
+	font-size:150%;
+	text-align:center;
+	height:100px;
+	position:fixed;
+	top: 100px;
+	left: 100px;
+	
+}
+
+
+/* classe flessibile: adatta sempre l'immagine di questa classe a questa percentuale di schermo*/
+.flex100% { max-width: 100% }
