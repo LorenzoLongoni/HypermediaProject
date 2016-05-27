@@ -1,37 +1,64 @@
-#Wrapper {
-	background-image: url("/home/lorenzo/Scrivania/ProgettoTim/ImmaginiHTML/tecnologia_header.jpg"); 
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-	z-index: -1;
-}
+#banner {
+	width : 1280px;
+	height : auto; 
+  background-repeat: no-repeat;
+	z-index: -1;  
+	background-attachment : fixed;
+	}
 
-#promotion {
-	margin : 0px;
+.landmark{
+	border-style:none;
+	border-width:2px;
 	color:blue;
 	font-family:tahoma;
-	font-size:0.5vm;
+	font-size: 135%;
 	text-align:center;
-	height:100px;
+	position: absolute;
+	top: 322px;
+	z-index: 1;
+	
+	}
+
+#home{
+	left: 87px;
+	padding: 19px 48px; 
+}
+
+#products{
+	left: 250px;
+	padding: 19px 36px;
+}
+
+#smartlife{
+	left: 414px;
+	padding: 19px 30px;
+}
+
+#promotion{
+	left: 580px;
+	padding: 19px;
+}
+
+#assistance{
+	left: 746px;
+	padding: 19px 23px;
+}
+
+#thegroup{
+	left: 911px;
+	padding: 19px 29px;
+}
+
+#whoweare{
+	left: 1079px;
+	padding: 19px 25px;
+}
+
+.landmark:hover {
+	background-color: #a6a6a6;
+}
+
+#pagebottom {
 	position:absolute;
-	top: 300px;
-	left: 45%;
-	
+	bottom: 0%;	
 }
-
-#assistance {
-	margin : 0px;
-	color:blue;
-	font-family:tahoma;
-	font-size:150%;
-	text-align:center;
-	height:100px;
-	position:fixed;
-	top: 100px;
-	left: 100px;
-	
-}
-
-
-/* classe flessibile: adatta sempre l'immagine di questa classe a questa percentuale di schermo*/
-.flex100% { max-width: 100% }
