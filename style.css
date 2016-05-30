@@ -60,5 +60,18 @@
 
 #pagebottom {
 	position:absolute;
-	bottom: 0%;	
+	bottom: 0%;
+}
+
+#pngtim{
+	z-index: 1;
+	position: absolute;
+	top: -60px;
+	left: -10px;
+}
+
+#imgpngtim {
+	width: 400px;
+	height: 300px;
+	z-index: 1;
 }
