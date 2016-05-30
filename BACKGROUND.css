@@ -1,0 +1,77 @@
+#banner {
+	width : 1280px;
+	height : auto; 
+  background-repeat: no-repeat;
+	z-index: -1;  
+	background-attachment : fixed;
+	}
+
+.landmark{
+	border-style:none;
+	border-width:2px;
+	color:blue;
+	font-family:tahoma;
+	font-size: 135%;
+	text-align:center;
+	position: absolute;
+	top: 322px;
+	z-index: 1;
+	
+	}
+
+#home{
+	left: 87px;
+	padding: 19px 48px; 
+}
+
+#products{
+	left: 250px;
+	padding: 19px 36px;
+}
+
+#smartlife{
+	left: 414px;
+	padding: 19px 30px;
+}
+
+#promotion{
+	left: 580px;
+	padding: 19px;
+}
+
+#assistance{
+	left: 746px;
+	padding: 19px 23px;
+}
+
+#thegroup{
+	left: 911px;
+	padding: 19px 29px;
+}
+
+#whoweare{
+	left: 1079px;
+	padding: 19px 25px;
+}
+
+.landmark:hover {
+	background-color: #a6a6a6;
+}
+
+#pagebottom {
+	position:absolute;
+	bottom: 0%;
+}
+
+#pngtim{
+	z-index: 1;
+	position: absolute;
+	top: -60px;
+	left: -10px;
+}
+
+#imgpngtim {
+	width: 400px;
+	height: 300px;
+	z-index: 1;
+}
